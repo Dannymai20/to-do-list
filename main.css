@@ -105,15 +105,16 @@ main {
     margin-bottom: 1rem;
 }
 
-.content .text {
+ .text {
     color: var(--light);
     font-size: 1.25rem;
+    font-weight: 300;
     width: 100%;
     display: block;
     transition: 0.4s;
 }
 
-.content .text:not(read-only) {
+.text:not(read-only) {
     color: var(--light);
 }
 
