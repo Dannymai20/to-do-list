@@ -63,7 +63,7 @@ input, button {
     color: var(--beige);
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient(to right, var(--light), var(--dark));
+    background-image: linear-gradient(to right, var(--light), var(--beige));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -76,4 +76,32 @@ input, button {
 
 #new-task-submit:active {
     opacity: 0.6;
+}
+
+/* Main */
+main {
+    flex: 1 1 0%;
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task-list {
+    padding: 1rem;
+}
+
+.task-list h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
 }
